@@ -930,6 +930,11 @@ body {
   top: 8px;
   right: 8px;
 }
+.modal-close-btm:hover {
+  fill: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
